@@ -35,7 +35,7 @@ function Navbar() {
             (
               <div className="nav">
                 <ul className={navbar ? "navbar active": "navbar"}>
-                  <li className="signin-list"><NavLink to="/signinoption" style={{ textDecoration: 'none' }}>Sign in </NavLink></li>
+                  <li className="signin-list"><NavLink to="/" style={{ textDecoration: 'none' }}>Sign in </NavLink></li>
                   <li className="signup-list"><NavLink to="/signup"  style={{ textDecoration: 'none'}} >Sign up</NavLink> </li>
     
                 </ul>
